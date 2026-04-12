@@ -108,6 +108,10 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-dhruvv16--hash-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhruvv16-hash)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dhruv%20Mayur%20Vira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-mayur-vira-5428b031b/)
+
+[![Email](https://img.shields.io/badge/Email-dhruvvira17%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhruvvira17@gmail.com)
+
 [![Profile Views](https://komarev.com/ghpvc/?username=dhruvv16-hash&color=22d3ee&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/dhruvv16-hash)
 
 <div align="center">
