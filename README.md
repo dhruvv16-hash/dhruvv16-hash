@@ -77,9 +77,6 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=dhruvv16-hash&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=06b6d4&text_color=cbd5e1&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvv16-hash&layout=compact&theme=transparent&hide_border=true&title_color=22d3ee&text_color=cbd5e1&langs_count=8" />
-
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com/?user=dhruvv16-hash&theme=transparent&hide_border=true&ring=22d3ee&fire=06b6d4&currStreakLabel=67e8f9&sideLabels=cbd5e1&dates=94a3b8" />
