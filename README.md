@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:06b6d4,100:22d3ee&height=200&section=header&text=Dhruv+Mayur+Vira&fontSize=56&fontAlignY=36&animation=fadeIn&fontColor=ffffff&desc=Full%20Stack%20Developer%20%7C%20Mobile%20Development&descAlignY=60&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:06b6d4,100:22d3ee&height=200&section=header&text=Dhruv+Mayur+Vira&fontSize=56&fontAlignY=36&animation=fadeIn&fontColor=ffffff&desc=Backend%20%26%20Full%20Stack%20Engineer%20%7C%20AI-Integrated%20Systems&descAlignY=60&descSize=18" />
 
 <a href="https://git.io/typing-svg">
-	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&pause=1100&color=22D3EE&center=true&vCenter=true&width=700&lines=Building+real-world+backend+systems+with+Spring+Boot;Exploring+AI-integrated+applications+for+production;From+clean+REST+APIs+to+scalable+microservices" alt="Typing SVG" />
+	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&pause=1100&color=22D3EE&center=true&vCenter=true&width=700&lines=Building+multi-tenant+SaaS+platforms+with+Next.js+%26+Supabase;Orchestrating+multi-agent+AI+research+pipelines;Shipping+production+PRs+to+open-source+(omegaUp);From+clean+REST+APIs+to+ML-powered+risk+engines" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -16,60 +16,108 @@
 
 ### Hi, I'm Dhruv
 
-- I am currently working on: A website that autonomously generates other websites using Spring Boot and AI integration.
-- I am looking to collaborate on: Backend projects involving REST APIs, Spring Boot, or ML-powered applications. Open to anything at the intersection of AI and real-world utility.
+- Computer Science undergraduate at **VIT Chennai** (Class of 2028), specializing in backend development, full-stack engineering, and AI-integrated systems.
+- I am currently working on: An **omegaUp** open-source contribution pipeline — shipped a merged production PR, have another in review, and am authoring a **GSoC 2026** proposal to extend it.
+- I am looking to collaborate on: Backend projects involving REST APIs, Spring Boot/FastAPI, multi-agent AI systems, or ML-powered applications — especially anything at the intersection of AI and real-world utility.
 - I am looking for help with: Scaling ML models and deploying full-stack AI-integrated apps to production.
-- I am currently learning: Advanced Spring Boot, diving deeper into microservices, JPA, security, and building production-grade REST APIs.
-- Ask me about: Java and Spring Boot, building Chrome Extensions, movie recommendation systems, or getting started with backend development.
-- Fun fact: I built a Chrome Extension that makes Gmail smarter and it actually works in real time.
+- I am currently learning: Advanced Spring Boot, microservices, JPA/security, and production-grade REST API design.
+- Ask me about: Multi-agent AI orchestration, Spring Boot, algorithmic trading systems, Chrome Extensions, or building multi-tenant SaaS from scratch.
+- Fun fact: I built a Chrome Extension that injects an AI "Reply" button directly into Gmail — and it actually works in real time.
 
 > "Build systems that solve real problems, not just pass test cases."
+
+---
+
+## Open Source
+
+**omegaUp** — Vue 3, TypeScript, Jest, Cypress, PHP · *2026 – Present*
+
+- 🟢 **Merged PR (live in production):** Diagnosed and fixed a stale-state bug in the Teams Group admin page by replacing an immutable server-rendered payload with reactive Vue 3 state (`ref()`), so saved values update instantly across dependent UI tabs without a refresh.
+- 🟡 **In review (CI-passing):** Shipped a debounced, Enter-key-aware search experience with loading/empty states and URL sync for the Problems list page; resolved a race condition in concurrent API responses via a request-cancellation pattern.
+- 📝 **GSoC 2026 proposal:** Extending the reactive-state fix across 4+ admin workflows and introducing an ESLint static-analysis guardrail against regressions, backed by a full Jest/Cypress testing plan.
+
+---
+
+## Featured Projects
+
+**VendorOS** — Food-Tech SaaS POS Platform
+`Next.js 16` `React 19` `TypeScript` `Supabase` `PostgreSQL` `WhatsApp Cloud API`
+Production-grade, multi-tenant POS + Kitchen Display System + inventory management PWA with offline-first sync (localStorage → Supabase on reconnect), Row-Level Security on all tables, and Capacitor v8 iOS/Android packaging. Integrated Meta WhatsApp Cloud API for order automation and Razorpay webhooks secured with SHA-256 HMAC validation, plus AI-driven revenue forecasting and stockout alerts.
+
+**InvestorGPT** — Multi-Agent AI Investment Research Platform
+`Next.js` `TypeScript` `FastAPI` `Python` `SQLAlchemy`
+Multi-tenant research platform with a 7-agent orchestration pipeline (ingestion, financials, DCF valuation, technical analysis, news sentiment, FRED macro stats) plus Consensus + Reviewer agents to resolve conflicting signals. Implements Piotroski F-Score, Altman Z-Score, DCF sensitivity grids, and an MPT studio simulating 500 Efficient Frontier configurations with Sharpe ratio optimization.
+
+**AccidentZero AI** — Industrial Safety Risk Monitoring
+`Python` `FastAPI` `XGBoost` `LightGBM` `CatBoost` `LSTM` `Isolation Forest`
+5-model ensemble scoring real-time accident risk from operational metrics (shift hours, fatigue, equipment age, weather). Fuses a computer-vision pipeline (PPE violation detection, scene risk scoring) with tabular predictions, exposed via FastAPI with batch Excel and real-time endpoints and interactive Chart.js dashboards.
+
+**Algorithmic Trading Strategy — ETH/USD**
+`Pine Script` `TradingView` `Python` `Crypto.com API`
+Multi-timeframe strategy combining UT Bot Alerts, Linear Regression, and ADX trend-strength filtering. Built a live interactive HTML dashboard on real-time Crypto.com data to visualize entry/exit signals and track risk-adjusted performance.
+
+**AI Email Writer** — Chrome Extension
+`JavaScript` `Spring Boot` `Gemini AI API` `Chrome Extension API`
+Injects an AI-powered "Reply" button into Gmail's UI via DOM mutation observers, backed by a Spring Boot REST API and Google Gemini AI for contextual, tone-aware replies in real time.
 
 ---
 
 ## Tools of the Craft
 
 ### Full Skills Stack
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Cypress](https://img.shields.io/badge/-cypress-%23017E67?style=for-the-badge&logo=cypress&logoColor=white)
+
+![Spring Boot](https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
+
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
-![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-2C7BE5?style=for-the-badge&logo=xgboost&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
 
 ---
 
