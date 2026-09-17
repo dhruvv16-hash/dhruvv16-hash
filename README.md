@@ -32,9 +32,9 @@
 
 **omegaUp** — Vue 3, TypeScript, Jest, Cypress, PHP · *2026 – Present*
 
-- 🟢 **Merged PR (live in production):** Diagnosed and fixed a stale-state bug in the Teams Group admin page by replacing an immutable server-rendered payload with reactive Vue 3 state (`ref()`), so saved values update instantly across dependent UI tabs without a refresh.
-- 🟡 **In review (CI-passing):** Shipped a debounced, Enter-key-aware search experience with loading/empty states and URL sync for the Problems list page; resolved a race condition in concurrent API responses via a request-cancellation pattern.
-- 📝 **GSoC 2026 proposal:** Extending the reactive-state fix across 4+ admin workflows and introducing an ESLint static-analysis guardrail against regressions, backed by a full Jest/Cypress testing plan.
+-  **Merged PR (live in production):** Diagnosed and fixed a stale-state bug in the Teams Group admin page by replacing an immutable server-rendered payload with reactive Vue 3 state (`ref()`), so saved values update instantly across dependent UI tabs without a refresh.
+-  **In review (CI-passing):** Shipped a debounced, Enter-key-aware search experience with loading/empty states and URL sync for the Problems list page; resolved a race condition in concurrent API responses via a request-cancellation pattern.
+-  **GSoC 2026 proposal:** Extending the reactive-state fix across 4+ admin workflows and introducing an ESLint static-analysis guardrail against regressions, backed by a full Jest/Cypress testing plan.
 
 ---
 
